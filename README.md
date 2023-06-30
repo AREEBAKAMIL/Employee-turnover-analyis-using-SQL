@@ -3,6 +3,7 @@ This repository demonstrates basic analysis of the Employee Turnover dataset usi
 
 # About the dataset
 The Employee Turnover dataset is a real dataset taken from [Edward Babushkin's blog](https://edwvb.blogspot.com/2017/10/employee-turnover-how-to-predict-individual-risks-of-quitting.html). The dataset contains data about Employee's risk of quitting based on various factors.
+
 Columns:
 "stag" - experience; 
 "event" - event;      
