@@ -1,6 +1,8 @@
 # Employee-turnover-analysis-SQL
 This repository demonstrates basic analysis of the Employee Turnover dataset using SQL and visualizations using Google Looker Studio. 
-Link to the analysis: https://lookerstudio.google.com/reporting/07183227-88d3-46e9-a58f-6ca1b9b5ea4e
+Link to the analysis based on SQL results: https://lookerstudio.google.com/reporting/07183227-88d3-46e9-a58f-6ca1b9b5ea4e
+Next - Link to analysis and prediction of the dataset using pandas and scikit-learn: [analysis and prediction using pandas and scikit-learn](https://github.com/AREEBAKAMIL/Employee-turnover-analysis-and-prediction/tree/main)
+
 
 # About the dataset
 The Employee Turnover dataset is a real dataset taken from [Edward Babushkin's blog](https://edwvb.blogspot.com/2017/10/employee-turnover-how-to-predict-individual-risks-of-quitting.html). The dataset contains data about Employee's risk of quitting based on various factors. <br />
@@ -33,6 +35,7 @@ Columns: <br />
 7. Train supervised ML models and compare results
 8. perform another training of the model which had provided the highest accuracy
 
-We can see that performing SQL analysis does not tell us much information about linkages between 'event' and the remaining variable. 
+# Conclusion
+We can see that performing SQL analysis does not tell us much information about linkages between 'event' and the remaining variable. Next, I performed [analysis and prediction using pandas and scikit-learn](https://github.com/AREEBAKAMIL/Employee-turnover-analysis-and-prediction/tree/main), feel free to check it out. 
    
 
