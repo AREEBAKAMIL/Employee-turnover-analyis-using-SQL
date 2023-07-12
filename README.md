@@ -1,7 +1,7 @@
 # Employee-turnover-analysis-SQL
 This repository demonstrates basic analysis of the Employee Turnover dataset using SQL and visualizations using Google Looker Studio. 
 Link to the analysis based on SQL results: https://lookerstudio.google.com/reporting/07183227-88d3-46e9-a58f-6ca1b9b5ea4e
-Next - Link to analysis and prediction of the dataset using pandas and scikit-learn: [analysis and prediction using pandas and scikit-learn](https://github.com/AREEBAKAMIL/Employee-turnover-analysis-and-prediction/tree/main)
+Next - Link to Analysis and prediction of the dataset using pandas and scikit-learn: [analysis and prediction using pandas and scikit-learn](https://github.com/AREEBAKAMIL/Employee-turnover-analysis-and-prediction/tree/main)
 
 
 # About the dataset
@@ -27,13 +27,10 @@ Columns: <br />
 
 # Steps:
 1. Download the csv file.
-2. Load the csv into pandas dataframe
-3. Check for missing/null values
-4. Encode categorical columns using Label-Encoding
-5. Check for correlation using a heatmap
-6. split the dataset into test and train
-7. Train supervised ML models and compare results
-8. perform another training of the model which had provided the highest accuracy
+2. Import the file to MySQL (you can use an SQL GUI such as [MySQL Workbench](https://www.mysql.com/products/workbench/))
+3. Check distinct values to look for any null values
+4. Perform anaysis using SQL
+5. Visualize it using using Google Looker Studio
 
 # Conclusion
 We can see that performing SQL analysis does not tell us much information about linkages between 'event' and the remaining variable. Next, I performed [analysis and prediction using pandas and scikit-learn](https://github.com/AREEBAKAMIL/Employee-turnover-analysis-and-prediction/tree/main), feel free to check it out. 
