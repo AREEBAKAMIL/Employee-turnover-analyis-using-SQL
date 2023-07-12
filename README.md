@@ -1,5 +1,6 @@
 # Employee-turnover-analysis-SQL
 This repository demonstrates basic analysis of the Employee Turnover dataset using SQL and visualizations using Google Looker Studio. 
+Link to the analysis: https://lookerstudio.google.com/reporting/07183227-88d3-46e9-a58f-6ca1b9b5ea4e
 
 # About the dataset
 The Employee Turnover dataset is a real dataset taken from [Edward Babushkin's blog](https://edwvb.blogspot.com/2017/10/employee-turnover-how-to-predict-individual-risks-of-quitting.html). The dataset contains data about Employee's risk of quitting based on various factors. <br />
@@ -28,6 +29,7 @@ Columns: <br />
 3. Check distinct values to look for any null values
 4. Perform anaysis using SQL
 5. Visualize it using using Google Looker Studio
+
+We can see that performing SQL analysis does not tell us much information about linkages between 'event' and the remaining variable. 
    
-Link to the analysis: https://lookerstudio.google.com/reporting/07183227-88d3-46e9-a58f-6ca1b9b5ea4e
 
