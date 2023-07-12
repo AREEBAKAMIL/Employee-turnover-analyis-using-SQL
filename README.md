@@ -25,10 +25,13 @@ Columns: <br />
 
 # Steps:
 1. Download the csv file.
-2. Import the file to MySQL (you can use an SQL GUI such as [MySQL Workbench](https://www.mysql.com/products/workbench/))
-3. Check distinct values to look for any null values
-4. Perform anaysis using SQL
-5. Visualize it using using Google Looker Studio
+2. Load the csv into pandas dataframe
+3. Check for missing/null values
+4. Encode categorical columns using Label-Encoding
+5. Check for correlation using a heatmap
+6. split the dataset into test and train
+7. Train supervised ML models and compare results
+8. perform another training of the model which had provided the highest accuracy
 
 We can see that performing SQL analysis does not tell us much information about linkages between 'event' and the remaining variable. 
    
